@@ -66,7 +66,6 @@ class InsertionSort implements AbstractSort {
 }
 
 class HeapSort implements AbstractSort {
-    //Very close to working. Seemingly random swaps with two consecutive elements occur with Inc Input.
     public int size;
 	public void sort(int[] numbers) {
 		// Implements HeapSort
